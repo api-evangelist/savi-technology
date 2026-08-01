@@ -1,0 +1,15 @@
+generated: '2026-07-21'
+method: probed
+source: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts
+hosts:
+- host: www.savi.com
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Aug 31 16:24:06 2026 GMT
+  hsts: false
+domains:
+- domain: savi.com
+  dnssec: false
+  caa: []
+  spf: true
+  dmarc: false
